@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - VehicleDemo",
+            "request": "launch",
+            "mainClass": "transport.VehicleDemo",
+            "projectName": "Assignment 1_a93ab422"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PersonDemo",
+            "request": "launch",
+            "mainClass": "transport.PersonDemo"
+        }
+    ]
+}

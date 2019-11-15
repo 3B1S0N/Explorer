@@ -1,0 +1,14 @@
+[]
+  
+// This is a test file, read and parsed by the BalancingSymbols program
+
+public interface MyTestFile {
+  
+  public void readFile ( String fileName )    ;
+    
+    /* ( This comment will still be processed ) */
+    public void doPreProcessing ( ) ;
+    
+    public boolean findWord ( String wordToFind ) ;
+}
+}

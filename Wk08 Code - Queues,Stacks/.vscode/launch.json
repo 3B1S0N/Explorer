@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestStack",
+            "request": "launch",
+            "mainClass": "STack_Package.TestStack",
+            "projectName": "Wk08 Code - Queues,Stacks_64241b5d"
+        }
+    ]
+}
