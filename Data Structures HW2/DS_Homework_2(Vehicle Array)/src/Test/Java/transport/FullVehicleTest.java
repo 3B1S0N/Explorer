@@ -1,4 +1,18 @@
 package transport;
+/*
+ * File: Vehicle.java
+ * Project: transport
+ * Author: Tobias Woode>
+ * Email: toby2.0@outlook.com
+ * Version: 1.0
+ * Brief: A class created to test all vehicle types created, in addition to their unique features and methods
+ * -----
+ * Last Modified: Saturday 28th December 2019, 10:45 am
+ * Modified By: Tobias Woode>
+ * -----
+ * Copyright ©2019 Tobias Woode>
+ */
+
 import java.util.Random;
 
 public class FullVehicleTest {
@@ -85,11 +99,6 @@ public class FullVehicleTest {
         motorcycle.setDriver(motorDriver1);
 //        System.out.println(motorcycle.toString());
         System.out.println(motorcycle.listRiders());
-
-
-
-
-
 
 
     }
