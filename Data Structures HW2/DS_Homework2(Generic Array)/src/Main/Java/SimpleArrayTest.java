@@ -1,3 +1,18 @@
+/*
+ * File: SimpleArrayTest.java
+ * Project: Generic Array
+ * Author: Tobias Woode>
+ * Email: toby2.0@outlook.com
+ * Version: 1.0
+ * Brief: A class created to test the generic array methods
+ * -----
+ * Last Modified: Saturday 28th December 2019, 10:56 am
+ * Modified By: Tobias Woode>
+ * -----
+ * Copyright ©2019 Tobias Woode>
+ */
+
+
 public class SimpleArrayTest {
 
 
@@ -9,13 +24,13 @@ public class SimpleArrayTest {
         sa.add("Cat");
         sa.add("Dog");
         sa.add("Mouse");
-        sa.add("Andrew");
-        sa.add("Killer");
+        sa.add("Lion");
+        sa.add("Platypus");
         sa.add("Cat");
         sa.add("Cat");
 
 //      TESTING THE FIND METHODS
-        sa.find("Killer");
+        sa.find("Platypus");
        System.out.println(sa.findLast("Cat"));
        int[] indecesList = sa.findAll("Cat");
         System.out.print("[");
@@ -27,9 +42,9 @@ public class SimpleArrayTest {
 
 
 
-//      TESTING THE INSERT METHODS
-        sa.insert("Work", 2);
-        String[] moreItems = {"Things", "More Things"};
+//       TESTING THE INSERT METHODS
+        sa.insert("Panther", 2);
+        String[] moreItems = {"Lynx", "Tiger"};
         sa.insertAll(3, moreItems);
 
 
@@ -40,7 +55,7 @@ public class SimpleArrayTest {
 
 //        TESTING THE INDEX METHODS
         sa.setIndex(4, "Cat");
-        System.out.println(sa.getindex("Killer"));
+        System.out.println(sa.getindex("Platypus"));
         System.out.println(sa.getindex("Cat"));
         sa.printAll();
 
@@ -50,7 +65,7 @@ public class SimpleArrayTest {
 
 
 //        TESTING THE REMOVE METHODS
-        sa.remove("Things");
+        sa.remove("Lynx");
         sa.removeAll("Cat");
         sa.printAll();
 
