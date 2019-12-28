@@ -1,4 +1,17 @@
 package transport;
+/*
+ * File: Person.java
+ * Project: transport
+ * Author: Tobias Woode>
+ * Email: toby2.0@outlook.com
+ * Version: 1.0
+ * Brief: A generic human class that mimics the traits of a typical passenger in a vehicle
+ * -----
+ * Last Modified: Saturday 28th December 2019; 10:30 am
+ * Modified By: Tobias Woode>
+ * -----
+ * Copyright ©2019 Tobias Woode>
+ */
 
 import java.util.Random;
 
@@ -16,7 +29,7 @@ public class Person{
 
     public Person () {
         this.name = "No name yet";
-//        this.age = randomAge(60);
+//      this.age = randomAge(60);
         this.gender = randomGender();
     }
 
