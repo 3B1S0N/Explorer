@@ -1,5 +1,18 @@
 package transport;
 
+/*
+ * File: Motorcycle.java
+ * Project: transport
+ * Author: Tobias Woode>
+ * Email: toby2.0@outlook.com
+ * Version: 1.0
+ * Brief: A class created to inherit from a generic vehicle class with bus specifics
+ * -----
+ * Modified By: Tobias Woode>
+ * -----
+ * Copyright ©2019 Tobias Woode>
+ */
+
 // 	A Motorcyle has two wheels, no doors, and has the capacity for only 1 passenger.
 //  These initialised variables are final because it is inappropriate for the user to change these values as they are standard.
 
