@@ -6,8 +6,9 @@ package transport;
  * Author: Tobias Woode>
  * Email: toby2.0@outlook.com
  * Version: 1.0
- * Brief: A class created to inherit from a generic vehicle class with bus specifics
+ * Brief: A class created to inherit from a generic vehicle class with Motrocycle  specifics
  * -----
+ * Last Modified: Saturday 28th December 2019
  * Modified By: Tobias Woode>
  * -----
  * Copyright ©2019 Tobias Woode>
