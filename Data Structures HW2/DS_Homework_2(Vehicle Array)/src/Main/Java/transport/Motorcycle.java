@@ -8,7 +8,7 @@ package transport;
  * Version: 1.0
  * Brief: A class created to inherit from a generic vehicle class with Motrocycle  specifics
  * -----
- * Last Modified: Saturday 28th December 2019
+ * Last Modified: Saturday 28th December 2019, 10:36 am
  * Modified By: Tobias Woode>
  * -----
  * Copyright ©2019 Tobias Woode>
