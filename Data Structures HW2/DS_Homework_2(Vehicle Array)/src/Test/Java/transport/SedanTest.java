@@ -1,4 +1,18 @@
 package transport;
+/*
+ * File: SedanTest.java
+ * Project: transport
+ * Author: Tobias Woode>
+ * Email: toby2.0@outlook.com
+ * Version: 1.0
+ * Brief: A class created to test the Sedan class
+ * -----
+ * Last Modified: Saturday 28th December 2019, 10:51 am
+ * Modified By: Tobias Woode>
+ * -----
+ * Copyright ©2019 Tobias Woode>
+ */
+
 
 public class SedanTest {
     private static final boolean BOOT = true;
