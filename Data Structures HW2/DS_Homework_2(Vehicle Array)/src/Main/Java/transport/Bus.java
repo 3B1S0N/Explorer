@@ -1,4 +1,16 @@
 package transport;
+/*
+ * File: Bus.java
+ * Project: transport
+ * Author: Tobias Woode>
+ * Email: toby2.0@outlook.com
+ * Version: 1.0
+ * Brief: A class created to inherit from a generic vehicle class with bus specifics
+ * -----
+ * Modified By: Tobias Woode>
+ * -----
+ * Copyright ©2019 Tobias Woode>
+ */
 
 public class Bus extends Vehicle {
         private boolean BOOT;
