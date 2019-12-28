@@ -1,3 +1,18 @@
+/*
+ * File: SimpleArray.java
+ * Project: Generic Array
+ * Author: Tobias Woode>
+ * Email: toby2.0@outlook.com
+ * Version: 1.0
+ * Brief: A class created to define methods of a generic array
+ * -----
+ * Last Modified: Saturday 28th December 2019, 10:55 am
+ * Modified By: Tobias Woode>
+ * -----
+ * Copyright ©2019 Tobias Woode>
+ */
+
+
 public class SimpleArray<T> {
     private int numitems;
 
