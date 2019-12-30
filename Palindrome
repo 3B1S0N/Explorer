@@ -1,0 +1,26 @@
+public class Palindrome {
+
+    public static boolean isPalindrome(String string){
+        return isPalindrome(string, 0, string.length() - 1);
+    }
+
+    private static boolean isPalindrome(String myWord, int startIndex, int endIndex){
+        if (startIndex == endIndex) return true;
+
+        if (endIndex == startIndex + 1 && myWord.charAt(endIndex) ==  myWord.charAt(startIndex))  return true;
+
+        if(myWord.charAt(startIndex) == myWord.charAt(endIndex)){
+            return isPalindrome(myWord,startIndex +1,endIndex -1);
+        }
+
+        return false;
+    }
+
+
+    public static void main(String[] args) {
+
+        System.out.println(isPalindrome("amak"));
+    }
+}
+
+
