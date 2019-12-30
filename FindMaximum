@@ -1,0 +1,24 @@
+import java.util.Arrays;
+
+public class FindMaximum {
+
+    public static int findMax(int[] A) {
+        int index = A.length-1;
+//      Setting the base case to 1 item in the array
+        if (A.length == 1) {
+            return A[0];
+        }
+        return Math.max(A[index], findMax(Arrays.copyOfRange(A,0,index)));
+    }
+
+
+    public static void main(String[] args) {
+        //int[] arr1 = new int[3];
+        int[] arr2 = {2,3,4,12,78};
+
+        System.out.println(findMax(arr2));
+
+    }
+
+
+}
