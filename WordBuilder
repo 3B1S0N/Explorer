@@ -1,0 +1,18 @@
+import java.util.Arrays;
+
+public class WordBuilder {
+    public static String wordBuilder(String[] A){
+        int n = A.length;
+        if(n == 1){
+            return A[0];
+        }
+        return A[n-1] + wordBuilder(Arrays.copyOfRange(A,0,n-1));
+
+    }
+
+    public static void main(String[] args) {
+        String [] my_Array = {"T","O","B","Y"};
+        System.out.println(wordBuilder(my_Array));
+    }
+}
+
